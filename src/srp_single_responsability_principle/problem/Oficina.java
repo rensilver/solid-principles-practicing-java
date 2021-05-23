@@ -10,7 +10,7 @@ public class Oficina {
 
     private void cadastrarFornecedor(){}
 
-    private List<Float> carregarDebitos(){
+    private List<Float> calcularGanhos(){
         return null;
     }
 }

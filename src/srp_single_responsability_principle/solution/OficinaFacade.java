@@ -6,7 +6,7 @@ public class OficinaFacade {
     private final RegistroClientes registroClientes = new RegistroClientes();
     private final Faturamento faturamento = new Faturamento();
 
-    public void debitos() {
+    public void lucros() {
         faturamento.calcularGanhos();
     }
 
