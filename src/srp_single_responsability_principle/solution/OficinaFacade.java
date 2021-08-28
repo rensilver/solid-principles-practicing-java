@@ -2,12 +2,20 @@ package srp_single_responsability_principle.solution;
 
 public class OficinaFacade {
 
-    private final CadastroFornecedores cadastroFornecedores = new CadastroFornecedores();
-    private final RegistroClientes registroClientes = new RegistroClientes();
-    private final Faturamento faturamento = new Faturamento();
+    private CadastroFornecedores cadastroFornecedores;
+    private RegistroClientes registroClientes;
+    private Faturamento faturamento;
 
-    public void lucros() {
-        faturamento.calcularGanhos();
+    public OficinaFacade(CadastroFornecedores cadastroFornecedores,
+                         RegistroClientes registroClientes,
+                         Faturamento faturamento) {
+        this.cadastroFornecedores = cadastroFornecedores;
+        this.registroClientes = registroClientes;
+        this.faturamento = faturamento;
+    }
+
+    public Double lucros() {
+        return faturamento.calcularGanhos();
     }
 
     public void salvarFornecedor() {

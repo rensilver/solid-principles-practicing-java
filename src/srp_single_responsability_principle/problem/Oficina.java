@@ -1,16 +1,14 @@
 package srp_single_responsability_principle.problem;
 
-import java.util.List;
-
 public class Oficina {
 
-    private List<String> obterListaDeClientes(){
-        return null;
+    private void atualizarDadosCliente(){
     }
 
-    private void cadastrarFornecedor(){}
+    private void cadastrarFornecedor(){
+    }
 
-    private List<Float> calcularGanhos(){
+    private Double calcularGanhos(){
         return null;
     }
 }

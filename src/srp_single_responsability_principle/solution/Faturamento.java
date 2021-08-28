@@ -2,7 +2,7 @@ package srp_single_responsability_principle.solution;
 
 public class Faturamento {
 
-    protected Float calcularGanhos(){
+    protected Double calcularGanhos(){
         return null;
     }
 }
