@@ -4,4 +4,7 @@ public class RegistroClientes {
 
     protected void atualizarDadosCliente(){
     }
+
+    protected void deletarCliente(){
+    }
 }

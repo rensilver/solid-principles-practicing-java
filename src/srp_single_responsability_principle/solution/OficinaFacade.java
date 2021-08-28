@@ -22,8 +22,9 @@ public class OficinaFacade {
         cadastroFornecedores.cadastrarFornecedor();
     }
 
-    public void atualizarCliente() {
+    public void cliente() {
         registroClientes.atualizarDadosCliente();
+        registroClientes.deletarCliente();
     }
 
 }
