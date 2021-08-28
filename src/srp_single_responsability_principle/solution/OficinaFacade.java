@@ -14,7 +14,7 @@ public class OficinaFacade {
         this.faturamento = faturamento;
     }
 
-    public Double lucros() {
+    public Double obterlucros() {
         return faturamento.calcularGanhos();
     }
 
@@ -22,7 +22,7 @@ public class OficinaFacade {
         cadastroFornecedores.cadastrarFornecedor();
     }
 
-    public void cliente() {
+    public void alterarCliente() {
         registroClientes.atualizarDadosCliente();
         registroClientes.deletarCliente();
     }
